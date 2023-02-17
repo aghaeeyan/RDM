@@ -27,7 +27,7 @@ You need to have Python and subsequently those mentioned packages installed on y
 The folder Data should be put in a folder named “USA” in the same directory as the folder Codes are. 
 In addition, an empty folder named “Result” should be created in the folder “USA”.
 
-##Codes:
+## Codes
 
 Estimator.py: This script estimates and returns the estimated parameters for the 51 jurisdictions of the US. To run the code, you just need to type “python Estimator.py”. 
 
@@ -41,7 +41,9 @@ CIcalculator.py: This script calculated the 95% CI based on percentile approach.
 
 ## Data
 MainData: Contains the polished temporal data originally obtained from Centers for Disease Control and Prevention (CDC) and US Census Bureau as cited in the manuscript.
+
 Fit_pow: Contains the estimated value for cv_cof as detailed in the manuscript.
+
 Hesitancy_variaty: contains the estimated hesitant population obtained from “Predicted Vaccine Hesitancy by State, PUMA, and County” (https://aspe.hhs.gov/reports/vaccine-hesitancy-covid-19-state-county-local-estimates) where also cited in the manuscript.
 
 Mandate_date: Contains the starting date from which differentiating policies based on vaccination status were in effect. The dates were obtained from https://doi.org/10.1038/s41562-021-01079-8 where also cited in the manuscript.
