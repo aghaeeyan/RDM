@@ -4,7 +4,7 @@ Supplementary data and code associated with the manuscript "Revealing the unseen
 DOI 10.5281/zenodo.7649937
 https://zenodo.org/badge/latestdoi/600241718
 
-In this repository you may find the data and the codes necessary to replicate the reported results in our manuscript, "Revealing the unseen: More than 30% of Americans relied on others' experience when deciding on taking the COVID-19 vaccine".
+In this repository you may find the data and the codes necessary to replicate the reported results in our manuscript, "Revealing the unseen: About half of the Americans relied on others' experience when deciding on taking the COVID-19 vaccine".
 This readme walks you through the steps need to be taken to run the codes.
 The Python code used here also depends on several packages, which are listed below:
 
