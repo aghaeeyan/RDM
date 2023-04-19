@@ -1,8 +1,8 @@
 # RDM
 Supplementary data and code associated with the manuscript "Revealing the unseen: About half of the Americans relied on others' experience when deciding on taking the COVID-19 vaccine"
 
-DOI 10.5281/zenodo.7649937
-https://zenodo.org/badge/latestdoi/600241718
+DOI: 10.5281/zenodo.7847390
+https://doi.org/10.5281/zenodo.7847390
 
 In this repository you may find the data and the codes necessary to replicate the reported results in our manuscript, "Revealing the unseen: About half of the Americans relied on others' experience when deciding on taking the COVID-19 vaccine".
 This readme walks you through the steps need to be taken to run the codes.
