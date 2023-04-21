@@ -49,5 +49,5 @@ In addition, an empty folder named “Result” should be created in the folder 
 
 **Mandate_date**: Contains the starting date from which differentiating policies based on vaccination status were in effect. The dates were obtained from https://doi.org/10.1038/s41562-021-01079-8 where also cited in the manuscript.
 
-## Citing the coe
-If the you find the codes helpful please cite the  preprint https://doi.org/10.48550/arXiv.2304.09931
+## Citing the code
+If the you find the codes helpful, please cite the following preprint https://doi.org/10.48550/arXiv.2304.09931
