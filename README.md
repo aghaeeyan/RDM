@@ -1,5 +1,6 @@
 # RDM
 Supplementary data and code associated with the manuscript "Revealing the unseen: About half of the Americans relied on others' experience when deciding on taking the COVID-19 vaccine"
+author: "Azadeh Aghaeeyan, Pouria Ramazi, and Mark A. Lewis"
 
 DOI: 10.5281/zenodo.7847390
 https://doi.org/10.5281/zenodo.7847390
@@ -47,3 +48,6 @@ In addition, an empty folder named “Result” should be created in the folder 
 **Hesitancy_variaty**: contains the estimated hesitant population obtained from [Predicted Vaccine Hesitancy by State, PUMA, and County](https://aspe.hhs.gov/reports/vaccine-hesitancy-covid-19-state-county-local-estimates) where also cited in the manuscript.
 
 **Mandate_date**: Contains the starting date from which differentiating policies based on vaccination status were in effect. The dates were obtained from https://doi.org/10.1038/s41562-021-01079-8 where also cited in the manuscript.
+
+## Citing the coe
+If the you find the codes helpful please cite the  preprint https://doi.org/10.48550/arXiv.2304.09931
