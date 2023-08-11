@@ -1,3 +1,5 @@
+#For the sake of simplicity, this code disregard the seed. However, the reported results in the paper--including the parameter estimation
+# and inference are based the best seed--in terms of resultant error--which is available on file mechanistic_model_0_1.csv
 import pandas as pd
 import numpy.random as random
 from datetime import datetime
@@ -14,15 +16,13 @@ from scipy.stats import normaltest
 
 dirname = os.path.dirname(__file__)
 PathFileSave =  dirname + 'Result/BootData/'
-
-
 NdataBoot = 500  # Number of bootstrap data
 maxAR_order = 10  # AutoRegressive Order
 inp =sys.argv # two letter abbreviation of the jurisdictions as input
 
 
 i = str(inp[1])
-fitFile = dirname + '/Result/' +  i +'_SimulatedEstimated.csv'  # contains 'new_vaccinated_fitted' (Model output), 'new_vaccinated' (Data),
+fitFile = dirname + '/Result/' +  i +'_SimFile.csv'  # contains 'new_vaccinated_fitted' (Model output), 'new_vaccinated' (Data),
 # 'time_ref' (Number of Week)
 df = pd.pd.read_csv(fitFile)
 
