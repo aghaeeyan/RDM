@@ -32,7 +32,7 @@ In addition, an empty folder named “Result” should be created in the folder 
 
 **Estimator.py**: This script estimates and returns the estimated parameters for the 51 jurisdictions of the US. To run the code, you just need to type “python Estimator.py”. 
 
-**BootstrappedDataGenerator.py**: This script creates the synthetic datasets to be used in bootstrap methods. The output of the code is two synthetized datasets one based on non-parametric residual resampling with replacement and the other one is based on parametric bootstrap approach. To do so, you need type in the command line “python BootstrappedDataGenerator.py i”, where “i” is the two-letter abbreviation of the jurisdiction. Number of bootstrapped data is set 450. However, the reported results are for 500.
+**BootstrappedDataGenerator.py**: This script creates the synthetic datasets to be used in bootstrap methods. The output of the code is two synthetized datasets one based on non-parametric residual resampling with replacement and the other one is based on parametric bootstrap approach. To do so, you need  to type in the command line “python BootstrappedDataGenerator.py i”, where “i” is the two-letter abbreviation of the jurisdiction. 
 
 **Bootstrap.py**: After obtaining the bootstrapped dataset, you may run this script to obtain the estimated parameters for that dataset.
 
