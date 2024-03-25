@@ -12,6 +12,7 @@ from statsmodels import regression
 from scipy.stats import pearsonr
 import sys
 import os
+import copy
 from scipy.stats import normaltest
 
 dirname = os.path.dirname(__file__)
@@ -44,7 +45,7 @@ for ord in range(maxAR_order):
     for p in range(ord + 1):
         residuals_shift1[p] = shift(residuals, p + 1, cval=0)
     [param1, resSD] = regression.linear_model.yule_walker(residuals, order=ord + 1)
-    residuals_un_cor1 = residuals
+    residuals_un_cor1 = copy.deepcopy(residuals)
     for p in range(ord + 1):
         residuals_un_cor1 = -param1[p] * residuals_shift1[p] + residuals_un_cor1
     residuals_un_cor1 = residuals_un_cor1[ord + 1:]
@@ -59,7 +60,7 @@ residuals_shift = np.empty([AR_order + 1, len(residuals)])
 for p in range(AR_order):
     residuals_shift[p] = shift(residuals, p + 1, cval=residuals[0])
 [param, resSD] = regression.linear_model.yule_walker(residuals, order=AR_order)
-residuals_un_cor = residuals
+residuals_un_cor = copy.deepcopy(residuals)
 for p in range(AR_order):
     residuals_un_cor = -param[p] * residuals_shift[p] + residuals_un_cor
 residuals_un_cor = residuals_un_cor[AR_order:] # the resultant residuals obtained
